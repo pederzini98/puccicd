@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Example of custom action
     environment:
-      name: manual-approval  # Must match the name of the environment you created
+      name: production
     steps:
       - name: Checkout Actions
         uses: actions/checkout@v4
